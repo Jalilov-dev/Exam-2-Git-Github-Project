@@ -181,6 +181,15 @@
   .my-20 {
     margin-block: calc(var(--spacing) * 20);
   }
+  .my-30 {
+    margin-block: calc(var(--spacing) * 30);
+  }
+  .mb-20 {
+    margin-bottom: calc(var(--spacing) * 20);
+  }
+  .mb-30 {
+    margin-bottom: calc(var(--spacing) * 30);
+  }
   .flex {
     display: flex;
   }
@@ -345,8 +354,14 @@
   .px-8 {
     padding-inline: calc(var(--spacing) * 8);
   }
+  .px-10 {
+    padding-inline: calc(var(--spacing) * 10);
+  }
   .px-15 {
     padding-inline: calc(var(--spacing) * 15);
+  }
+  .px-\[8\] {
+    padding-inline: 8;
   }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
@@ -520,6 +535,11 @@
       line-height: calc(var(--spacing) * 15);
     }
   }
+  .md\:text-\[1px\] {
+    @media (width >= 48rem) {
+      font-size: 1px;
+    }
+  }
   .md\:text-\[18px\] {
     @media (width >= 48rem) {
       font-size: 18px;
@@ -528,6 +548,11 @@
   .md\:text-\[21px\] {
     @media (width >= 48rem) {
       font-size: 21px;
+    }
+  }
+  .md\:text-\[22px\] {
+    @media (width >= 48rem) {
+      font-size: 22px;
     }
   }
   .md\:text-\[24px\] {
@@ -615,6 +640,11 @@
       width: 650px;
     }
   }
+  .lg\:w-\[670px\] {
+    @media (width >= 64rem) {
+      width: 670px;
+    }
+  }
   .lg\:w-auto {
     @media (width >= 64rem) {
       width: auto;
@@ -670,10 +700,28 @@
       padding-bottom: calc(var(--spacing) * 10);
     }
   }
+  .lg\:text-\[22px\]\/15 {
+    @media (width >= 64rem) {
+      font-size: 22px;
+      line-height: calc(var(--spacing) * 15);
+    }
+  }
   .lg\:text-\[40px\]\/10 {
     @media (width >= 64rem) {
       font-size: 40px;
       line-height: calc(var(--spacing) * 10);
+    }
+  }
+  .lg\:text-\[50px\]\/15 {
+    @media (width >= 64rem) {
+      font-size: 50px;
+      line-height: calc(var(--spacing) * 15);
+    }
+  }
+  .lg\:text-\[52px\]\/15 {
+    @media (width >= 64rem) {
+      font-size: 52px;
+      line-height: calc(var(--spacing) * 15);
     }
   }
   .lg\:text-\[55px\]\/15 {
@@ -721,6 +769,21 @@
   .lg\:text-\[40px\] {
     @media (width >= 64rem) {
       font-size: 40px;
+    }
+  }
+  .lg\:text-\[50px\] {
+    @media (width >= 64rem) {
+      font-size: 50px;
+    }
+  }
+  .lg\:text-\[52px\] {
+    @media (width >= 64rem) {
+      font-size: 52px;
+    }
+  }
+  .lg\:text-\[55px\] {
+    @media (width >= 64rem) {
+      font-size: 55px;
     }
   }
   .lg\:text-\[60px\] {
